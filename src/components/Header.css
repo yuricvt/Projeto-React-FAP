@@ -1,0 +1,55 @@
+nav, nav ul, .logoLinks {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 1rem 3rem;
+    
+}
+
+nav ul {
+    gap: 4rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    color: white;
+    transition: 0.25s;
+}
+
+nav a:hover {
+    color: #FF5C00;
+    border-bottom: 1px solid;
+}
+
+nav .logo {
+    scale: 0.8;
+}
+
+.logoLinks {
+    align-items: center;
+    gap: 5rem;
+}
+
+.cta-button {
+    padding: 1rem;
+    color: white;
+    background-color: #FF5C00;
+    border: none;
+    border-radius: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.cta-button:hover {
+    color: white;
+    background-color: rgb(209, 77, 0);
+}
